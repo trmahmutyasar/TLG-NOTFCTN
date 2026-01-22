@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.GoogleSearch" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/google_blue</item>
+        <item name="colorPrimaryDark">@color/google_blue</item>
+        <item name="colorAccent">@color/google_blue</item>
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Search Bar Style -->
+    <style name="SearchBarStyle">
+        <item name="android:background">@drawable/search_bar_background</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Search Button Style -->
+    <style name="SearchButtonStyle">
+        <item name="android:background">@color/background_gray</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <!-- Logo Text Style -->
+    <style name="LogoTextStyle">
+        <item name="android:textSize">90sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <!-- Dialog Style -->
+    <style name="PermissionDialogStyle" parent="Theme.Material3.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/google_blue</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+
+    <!-- Status Bar Style -->
+    <style name="StatusBarStyle">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+</resources>
